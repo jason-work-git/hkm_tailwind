@@ -80,53 +80,7 @@ import * as SkeletonExamples from "docs-content/react/skeleton";
 import * as GalleryExamples from "docs-content/react/gallery";
 import * as MegaMenuExamples from "docs-content/react/mega-menu";
 
-// html docs content
-import * as HtmlPlugins from "docs-content/html/plugins";
-import * as HTMLButtonExamples from "docs-content/html/button";
-import * as HTMLAccordianExamples from "docs-content/html/accordion";
-import * as HTMLAlertExamples from "docs-content/html/alert";
-import * as HTMLAvatarExamples from "docs-content/html/avatar";
-import * as HTMLBadgeExamples from "docs-content/html/badge";
-import * as HTMLBreadcrumbsExamples from "docs-content/html/breadcrumbs";
-import * as HTMLButtonGroupExamples from "docs-content/html/button-group";
-import * as HTMLCardExamples from "docs-content/html/card";
-import * as HTMLCheckboxExamples from "docs-content/html/checkbox";
-import * as HTMLChipExamples from "docs-content/html/chip";
-import * as HTMLDialogExamples from "docs-content/html/dialog";
-import * as HTMLIconButtonExamples from "docs-content/html/icon-button";
-import * as HTMLInputExamples from "docs-content/html/input";
-import * as HTMLInputNumberExamples from "docs-content/html/input-number";
-import * as HTMLInputPhoneExamples from "docs-content/html/input-phone";
-import * as HTMLInputSearchExamples from "docs-content/html/input-search";
-import * as HTMLFormExamples from "docs-content/html/form";
-import * as HTMLListExamples from "docs-content/html/list";
-import * as HTMLMenuExamples from "docs-content/html/menu";
-import * as HTMLModalExamples from "docs-content/html/modal";
-import * as HTMLNavbarExamples from "docs-content/html/navbar";
-import * as HTMLPaginationExamples from "docs-content/html/pagination";
-import * as HTMLPopoverExamples from "docs-content/html/popover";
-import * as HTMLProgressExamples from "docs-content/html/progress";
-import * as HTMLRadioExamples from "docs-content/html/radio";
-import * as HTMLRatingExamples from "docs-content/html/rating";
-import * as HTMLSelectExamples from "docs-content/html/select";
-import * as HTMLSpeedDialExamples from "docs-content/html/speed-dial";
-import * as HTMLSpinnerExamples from "docs-content/html/spinner";
-import * as HTMLStepperExamples from "docs-content/html/stepper";
-import * as HTMLSwitchExamples from "docs-content/html/switch";
-import * as HTMLTabsExamples from "docs-content/html/tabs";
-import * as HTMLTextareaExamples from "docs-content/html/textarea";
-import * as HTMLTimelineExamples from "docs-content/html/timeline";
-import * as HTMLTooltipExamples from "docs-content/html/tooltip";
-import * as HTMLTypographyExamples from "docs-content/html/typography";
-import * as HTMLFooterExamples from "docs-content/html/footer";
-import * as HTMLImageExamples from "docs-content/html/img";
-import * as HTMLTableExamples from "docs-content/html/table";
-import * as HTMLVideoExamples from "docs-content/html/video";
-import * as HTMLSidebarExamples from "docs-content/html/sidebar";
-import { ReleaseNotes as HTMLReleaseNotes } from "docs-content/html/release-notes";
-import * as HTMLGalleryExamples from "docs-content/html/gallery";
-import * as HTMLSkeletonExamples from "docs-content/html/skeleton";
-import * as HTMLMegaMenuExamples from "docs-content/html/mega-menu";
+
 
 // @material-tailwind/react
 import {
@@ -182,7 +136,6 @@ import {
 } from "@material-tailwind/react";
 
 // routes
-import { routes as htmlRoutes } from "routes/html.routes";
 import { routes as reactRoutes } from "routes/react.routes";
 
 // utils
@@ -367,53 +320,7 @@ const components = {
   SkeletonExamples,
   GalleryExamples,
   MegaMenuExamples,
-  // html docs content
-  HtmlPlugins,
-  HTMLButtonExamples,
-  HTMLAccordianExamples,
-  HTMLAlertExamples,
-  HTMLAvatarExamples,
-  HTMLBadgeExamples,
-  HTMLBreadcrumbsExamples,
-  HTMLButtonGroupExamples,
-  HTMLCardExamples,
-  HTMLCheckboxExamples,
-  HTMLChipExamples,
-  HTMLDialogExamples,
-  HTMLIconButtonExamples,
-  HTMLInputExamples,
-  HTMLInputNumberExamples,
-  HTMLInputPhoneExamples,
-  HTMLInputSearchExamples,
-  HTMLFormExamples,
-  HTMLListExamples,
-  HTMLMenuExamples,
-  HTMLModalExamples,
-  HTMLNavbarExamples,
-  HTMLPaginationExamples,
-  HTMLPopoverExamples,
-  HTMLProgressExamples,
-  HTMLRadioExamples,
-  HTMLRatingExamples,
-  HTMLSelectExamples,
-  HTMLSpeedDialExamples,
-  HTMLSpinnerExamples,
-  HTMLStepperExamples,
-  HTMLSwitchExamples,
-  HTMLTabsExamples,
-  HTMLTextareaExamples,
-  HTMLTimelineExamples,
-  HTMLTooltipExamples,
-  HTMLTypographyExamples,
-  HTMLFooterExamples,
-  HTMLImageExamples,
-  HTMLTableExamples,
-  HTMLVideoExamples,
-  HTMLSidebarExamples,
-  HTMLReleaseNotes,
-  HTMLGalleryExamples,
-  HTMLSkeletonExamples,
-  HTMLMegaMenuExamples,
+
 };
 
 export default function Page({ frontMatter, mdxSource, slug }) {
@@ -421,7 +328,6 @@ export default function Page({ frontMatter, mdxSource, slug }) {
   const [mobileNav, setMobileNav] = React.useState(false);
 
   const routes = {
-    html: htmlRoutes,
     react: reactRoutes,
   };
 
