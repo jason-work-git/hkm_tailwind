@@ -1,7 +1,6 @@
 {
   "name": "hkm_tailwind",
   "version": "0.1.0",
-  "homepage": "https://material-tailwind.com",
   "description": "HKM Tailwind is a customizable components library for Tailwind CSS.",
   "repository": {
     "type": "git",
