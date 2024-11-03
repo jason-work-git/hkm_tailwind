@@ -1,7 +1,7 @@
 {
   "name": "@hkm-material/react",
   "homepage": "https://github.com/jason-work-git/hkm_tailwind",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "@hkm-material/react is an easy-to-use components library for ReactJS & Tailwind CSS inspired by Material Design.",
   "repository": "https://github.com/jason-work-git/hkm_tailwind",
   "license": "MIT",
