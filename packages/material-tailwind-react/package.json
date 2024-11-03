@@ -1,9 +1,9 @@
 {
-  "name": "@material-tailwind/react",
-  "homepage": "https://material-tailwind.com",
+  "name": "@hkm-tailwind/react",
+  "homepage": "https://github.com/jason-work-git/hkm_tailwind",
   "version": "2.1.10",
-  "description": "@material-tailwind/react is an easy-to-use components library for ReactJS & Tailwind CSS inspired by Material Design.",
-  "repository": "https://github.com/creativetimofficial/material-tailwind",
+  "description": "@hkm-tailwind/react is an easy-to-use components library for ReactJS & Tailwind CSS inspired by Material Design.",
+  "repository": "https://github.com/jason-work-git/hkm_tailwind",
   "license": "MIT",
   "main": "index.js",
   "typings": "index.d.ts",

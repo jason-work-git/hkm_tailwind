@@ -1,9 +1,9 @@
 {
-  "name": "material-tailwind",
-  "version": "0.0.0",
+  "name": "hkm-tailwind",
+  "version": "0.0.1",
   "homepage": "https://material-tailwind.com",
-  "description": "Material Tailwind is an easy-to-use components library for Tailwind CSS inspired by Material Design.",
-  "repository": "https://github.com/creativetimofficial/material-tailwind",
+  "description": "HKM Tailwind is an easy-to-use components library for Tailwind CSS inspired by Material Design.",
+  "repository": "https://github.com/jason-work-git/hkm_tailwind",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
